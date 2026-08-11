@@ -1,0 +1,24 @@
+{
+  "name": "standard-operating-procedures",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Andrew Luxem"
+  },
+  "description": "Static agent skill for turning a process into a usable SOP and auditing procedures for triggers, owners, controls, and exceptions.",
+  "plugins": [
+    {
+      "name": "standard-operating-procedures",
+      "version": "1.0.0",
+      "source": "./",
+      "description": "Standard Operating Procedure, SOP Audit. Static: no network calls, no remote fetch, no auto-update. Version-pinned.",
+      "category": "productivity",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "process-design",
+        "skill-md",
+        "standard-operating-procedure"
+      ]
+    }
+  ]
+}
